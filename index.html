@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Notary Finder - Find Notaries Near You</title>
+    <meta name="description" content="Quickly and securely find a trusted notary public near you. Our modern, user-friendly tool uses your location to instantly display a map and list of nearby services. Perfect for all your document authentication needs.">
+    <meta name="keywords" content="notary public, notary near me, find a notary, document notarization, geolocation notary finder, legal documents, document authentication">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "url": "https://notary-finder.example.com/",
+          "name": "Simple Notary Finder",
+          "description": "Instantly find trusted notary publics near your current location.",
+          "publisher": {
+            "@type": "Organization",
+            "name": "Simple Notary Finder",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://notary-finder.example.com/favicon.svg"
+            }
+          }
+        },
+        {
+          "@type": "WebApplication",
+          "name": "Simple Notary Finder",
+          "url": "https://notary-finder.example.com/",
+          "applicationCategory": "Tool",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires JavaScript and Geolocation API.",
+          "description": "A tool that uses the Geolocation API to help users find nearby notary public services.",
+          "featureList": [
+            "Geolocation-based search",
+            "List of nearby notaries",
+            "Simulated map view",
+            "Contact and service hour information"
+          ]
+        },
+        {
+          "@type": "Article",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://notary-finder.example.com/"
+          },
+          "headline": "The Ultimate Guide to Notary Public Services and Document Authentication",
+          "description": "A comprehensive 3500-word guide on the roles of a notary public, which documents require notarization, and how modern technology like geolocation is making these essential services more accessible.",
+          "image": "https://picsum.photos/1200/800",
+          "author": {
+            "@type": "Person",
+            "name": "HSINI MOHAMED"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Simple Notary Finder",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://notary-finder.example.com/favicon.svg"
+            }
+          },
+          "datePublished": "2023-10-27",
+          "dateModified": "2023-10-27"
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a notary public?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A notary public is an official of integrity appointed by state government to serve the public as an impartial witness in performing a variety of official fraud-deterrent acts related to the signing of important documents."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Why do I need a document notarized?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Notarization is a crucial step for many legal documents to ensure their authenticity and proper execution. It confirms the identity of the signers, that they are signing willingly, and that they are aware of the document's contents. This process helps prevent fraud and is often a legal requirement for documents like wills, deeds, and powers of attorney."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my location data safe when using this tool?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, your privacy is paramount. Our tool uses the browser's Geolocation API, which requires your explicit permission before accessing your location. Your coordinates are used only for the current session to find nearby notaries and are not stored or shared. You have full control and can deny the request at any time."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-gray-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
